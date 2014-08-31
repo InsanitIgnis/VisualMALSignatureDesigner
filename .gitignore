@@ -1,10 +1,9 @@
 bin/*
 cache/thumbnails/*.jpg
-images/*.png
-images/*.jpg
-images/*.jpeg
-fonts/*.ttf
+images/*
+fonts/*
 sig.ini
+sig.vmsd
 *.class
 
 # Windows image file caches
