@@ -5,7 +5,6 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 
 import com.inverseinnovations.MALSignatureDesignerLite.*;
-//TODO update when Block ediited, block added, block deleted, block moved(?)
 
 public class Main {
 	public ImageWindow ImageWindow;
@@ -17,7 +16,9 @@ public class Main {
     public static void main(String[] args){
         new Main();
     }
-
+//TODO resizing thumbnail of AddImage is...well...something is wrong
+//TODO need to find a better rotation method
+//TODO image preview on image file selection
     public Main(){
     	ImageWindow = new ImageWindow(this);
     	BlockWindow = new BlockWindow(this);
